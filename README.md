@@ -33,10 +33,10 @@ PackageTracking/
 
 ### Key Classes
 
-- **Package**: Represents a shipping package with tracking information
+- **Parcel**: Represents a shipping parcel with tracking information
 - **TrackingEvent**: Records status updates with location and timestamp
 - **User**: Stores sender/recipient information
-- **PackageTracker**: Core service class for managing packages
+- **ParcelTracker**: Core service class for managing parcels
 - **Main**: Command-line interface for interacting with the system
 
 ## Getting Started
@@ -50,13 +50,13 @@ PackageTracking/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/PackageTracking.git
+   git clone https://github.com/Pssttt/java-oop-assignment.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd PackageTracking
+   cd java-oop-assignment
    ```
 
 3. Compile and run:
@@ -69,7 +69,7 @@ PackageTracking/
 
 The system provides a simple command-line interface with these options:
 
-### 1. Register new package
+### 1. Register new parcel
 
 - Enter sender details:
   - Name
@@ -86,7 +86,7 @@ The system provides a simple command-line interface with these options:
 
 ### 2. Add tracking update
 
-- Enter the package's tracking ID
+- Enter the parcel's tracking ID
 - Provide current location
 - Update status (choose from):
   - `REGISTERED`
@@ -95,7 +95,7 @@ The system provides a simple command-line interface with these options:
   - `DELIVERED`
   - `DELAYED`
 
-### 3. View package tracking
+### 3. View parcel tracking
 
 - Enter tracking ID to see:
   - Current status
@@ -108,7 +108,7 @@ The system provides a simple command-line interface with these options:
 
 ## 🖥️ Command Line Usage
 
-### 1. Register New Package
+### 1. Register New parcel
 
 ```text
 1. Provide sender details:
@@ -140,7 +140,7 @@ Package registered with tracking ID: a1b2c3d4
 Tracking updated successfully.
 ```
 
-### 3. View Package History
+### 3. View Parcel Tracking
 
 ```text
 1. Enter tracking ID: a1b2c3d4
