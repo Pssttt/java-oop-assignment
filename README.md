@@ -13,6 +13,7 @@ A Java-based package tracking system that allows users to register packages, upd
 ## UML Diagram
 
 ![UML Diagram](./uml.png)
+
 _Basic UML Structure_
 
 ## Class Structure
