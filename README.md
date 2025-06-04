@@ -108,7 +108,7 @@ The system provides a simple command-line interface with these options:
 
 ## 🖥️ Command Line Usage
 
-### 1. Register New parcel
+### 1. Register New Parcel
 
 ```text
 1. Provide sender details:
