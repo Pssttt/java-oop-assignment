@@ -52,9 +52,8 @@ public class Parcel {
 
   @Override
   public String toString() {
-    return "Parcel [trackingId = " + trackingId + ", sender = " + sender + ", recipient = " + recipient + ", origin = "
-        + origin + ", destination = " + destination + ", type = " + type + ", current location = "
-        + getCurrentLocation()
-        + ", current status = " + getCurrentStatus() + "]";
+    return "Package " + trackingId + " (" + type + ")\n" +
+        "From: " + sender.getName() + " → " + recipient.getName() + "\n" +
+        origin + " → " + destination;
   }
 }
